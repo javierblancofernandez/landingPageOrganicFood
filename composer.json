@@ -1,0 +1,8 @@
+{
+    "name": "javierblancofernandez/landing_page",
+    "require-dev": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "license": "MIT",
+    "require": {}
+}
