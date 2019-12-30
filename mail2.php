@@ -32,9 +32,9 @@ $mail = new PHPMailer(true);
 
         //Recipients
         $mail->setFrom('noreplygiunti@gmail.com', 'Información de Organic Food');
-        //$mail->addAddress('eulogioem@gmail.com');             // Add a recipient
+        $mail->addAddress('eulogioem@gmail.com');             // Add a recipient
         $mail->addAddress('fblanco@learning.eoi.es');  
-        //$mail->addAddress('ceblfe@gmail.com');           // Add a recipient
+        $mail->addAddress('ceblfe@gmail.com');           // Add a recipient
 
         
 
@@ -102,13 +102,13 @@ $mail = new PHPMailer(true);
         
         <div class="redes">
             <div class="contenedor">
-                <a href="https://www.instagram.com/" class="github"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/organicfoodapp/" class="github"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/Organic-FOODS-APP-100644474797070/" class="facebook"><i class="fab fa-facebook-f"></i></a>
 
             </div>
         </div>
-            <p>Copyright &copy;2019</p>
+             <p>Copyright ORGANICFOOD &copy;2019</p>
         </footer>
 
     <script src="js/main.js"></script>
